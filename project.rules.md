@@ -1,5 +1,6 @@
 フロントエンドFlutterのプロジェクトはmy_flutter_appディレクトリにあります.
 基本的にflutter run -d chromeは私が実行を常に行なっているので，clineとして実行する必要はありません.
+また，clineにとってのブラウザテストについての仕様書はbrowser_testing.mdにあります．
 
 企画書はREADME.mdにあります．イメージはこちらで認識してください．
 
@@ -10,7 +11,7 @@
 デザインのイメージとしてimagesディレクトリにimageファイルがあります.参考にしてください.
 
 # Gitを使う上でのルール,指示がある場合に行う
-add: cd /tmp/tmp && git add .でファイルを追加してしまってください.
-わざわざ,addするファイルを選択する必要はありません
+diff: cd /tmp/tmp && git diffでファイルを確認してください.
+add: cd /tmp/tmp && git add .でファイルを追加してしまってください.わざわざ,addするファイルを選択する必要はありません
 commit: 上に加えて && git commit -m "{作業内容}"でコミットしてください.
 push: 上に加えて && git push origin mainでプッシュしてください.
